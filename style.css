@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }    
+    50%{
+        background-position: 100% 50%;
+    }
+    10%{
+        background-position: 0 50%;
+    }
+}
+.love,.yes, .no{
+    padding-top: 20%;
+    padding-left: 33%;   
+}
+h2{font-size: 72px}
+.love span{color: #fc9786;}
+.love a{text-decoration: none;
+    padding: 100px;
+    padding-top: 50px;
+    margin: 0px 50px;
+}
+#yes{color: #23d5ab;}
+#no{color: #d2001a;}
+img{height: 100px; width: 100px;}
+.betch{
+     padding-top: 30%;
+    padding-left: 13%;     
+}
+}
